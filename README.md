@@ -7,6 +7,7 @@ This project implements a tool-based AI agent in Python that processes user quer
 Instead of relying on unstable model-driven tool calling, the system uses a deterministic routing mechanism to ensure consistent and reliable execution.
 
 _**🎯 Objectives**___
+
 Build a stable AI agent that avoids unreliable function-calling behavior
 Enable multi-functional query handling (math, knowledge, search, decisions)
 Design a modular architecture for easy extension of tools
@@ -14,6 +15,7 @@ Ensure predictable and fast execution using rule-based routing
 Provide a practical understanding of agent systems without over-dependence on LLMs
 
 _**⚙️ Execution Flow**__
+
 User enters a query via command-line interface
 The system preprocesses and normalizes the input
 A router module analyzes keywords and intent
@@ -26,6 +28,7 @@ The selected tool executes and returns the result
 The agent displays the final output to the user
 
 **_🧠 Algorithm (High-Level)_**
+
 Start
 │
 ├── Accept user input
@@ -52,12 +55,14 @@ End
 
 
 _**🧩 System Architecture**_
+
 Agent (Controller): Manages query processing and execution flow
 Router: Determines which tool to invoke based on input
 Tools: Independent modules performing specific tasks
 Fallback LLM: Handles general queries outside predefined rules
 
 _**✨ Key Features**_
+
 Deterministic routing (no unreliable AI tool calls)
 Modular and extensible design
 Handles multiple query types in a single system
