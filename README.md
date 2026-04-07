@@ -1,4 +1,4 @@
-🤖** Multi-Agent AI System (LangChain + Groq)**_
+🤖** Multi-Agent AI System (LangChain + Groq)**
 
 **📌 Project Description**
 
