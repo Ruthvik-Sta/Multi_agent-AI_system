@@ -29,29 +29,8 @@ The agent displays the final output to the user
 
 **_🧠 Algorithm (High-Level)_**
 
-Start
-│
-├── Accept user input
-│
-├── Convert input to lowercase
-│
-├── IF input contains math operators
-│       → call calculator
-│
-├── ELSE IF input contains knowledge-based keywords
-│       → call Wikipedia API
-│
-├── ELSE IF input contains recent/trending keywords
-│       → call web search
-│
-├── ELSE IF input relates to decision-making
-│       → call decision helper
-│
-├── ELSE
-│       → fallback to LLM response
-│
-└── Display result
-End
+<img width="1440" height="1312" alt="image" src="https://github.com/user-attachments/assets/aebc7b6e-85a0-41f7-a3b4-81811889beee" />
+
 
 
 _**🧩 System Architecture**_
